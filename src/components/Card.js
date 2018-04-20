@@ -45,6 +45,7 @@ class Card extends Component {
                         backgroundImage:
                         `url(https://api.scryfall.com/cards/named?exact=${this.fixedEncodeURIComponent(this.props.name)}&format=image&version=normal)`
                     }}/>
+                    <p>{this.props.notes}.</p>
                 </div>
             </div>;
 

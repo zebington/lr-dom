@@ -3,907 +3,1088 @@
     {
       "name": "Adamant Will",
       "grade": "C",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Will win combats most of the time, few fail cases"
     },
     {
       "name": "Aven Sentry",
       "grade": "C",
-      "manaCost": "3W"
+      "manaCost": "3W",
+      "notes": "Key piece for the blue/white fliers deck"
     },
     {
       "name": "Baird, Steward of Argive",
       "grade": "B-",
-      "manaCost": "2WW"
+      "manaCost": "2WW",
+      "notes": "Body is very annoying to play against, tax hits kicker decks"
     },
     {
       "name": "Benalish Honor Guard",
       "grade": "D",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Toughness at 2 is really bad"
     },
     {
       "name": "Blessed Light",
       "grade": "B-",
-      "manaCost": "4W"
+      "manaCost": "4W",
+      "notes": "Enchantment removal is good for sagas, 5 mana is quite high"
     },
     {
       "name": "Board the Weatherlight",
       "grade": "F",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Constructed plant, you'll never have enough good historic cards"
     },
     {
       "name": "Call the Cavalry",
       "grade": "C+",
-      "manaCost": "3W"
+      "manaCost": "3W",
+      "notes": "Strong on stats alone, big board impact"
     },
     {
       "name": "Charge",
       "grade": "C",
-      "manaCost": "W"
+      "manaCost": "W",
+      "notes": "Wants to go in creature heavy deck (16+ creatures)"
     },
     {
       "name": "D'Avenant Trapper",
       "grade": "C",
-      "manaCost": "2W"
+      "manaCost": "2W",
+      "notes": "Ability is not great, works against aggro body"
     },
     {
       "name": "Danitha Capashen, Paragon",
       "grade": "B-",
-      "manaCost": "2W"
+      "manaCost": "2W",
+      "notes": "Good even without aura or equipment, ridiculous when boosted"
     },
     {
       "name": "Dauntless Bodyguard",
       "grade": "C+",
-      "manaCost": "W"
+      "manaCost": "W",
+      "notes": "If it's in opening hand play it turn 1, still has utility late"
     },
     {
       "name": "Dub",
       "grade": "C",
-      "manaCost": "2W"
+      "manaCost": "2W",
+      "notes": "Baseline aura for aura/equip deck"
     },
     {
       "name": "Excavation Elephant",
       "grade": "D+",
-      "manaCost": "4W"
+      "manaCost": "4W",
+      "notes": "Mediocre card without kicker, kicker ability is very narrow"
     },
     {
       "name": "Gideon's Reproach",
       "grade": "C+",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Fine removal spell, not particularly great"
     },
     {
       "name": "Healing Grace",
       "grade": "C SB",
-      "manaCost": "W"
+      "manaCost": "W",
+      "notes": "Doesn't make smaller creatures win combat, just not die"
     },
     {
       "name": "Invoke the Divine",
       "grade": "C SB",
-      "manaCost": "2W"
+      "manaCost": "2W",
+      "notes": "4 life is nice, but start with it in sideboard"
     },
     {
       "name": "Knight of Grace",
       "grade": "B",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Always maindeck, don't worry about opponent playing black"
     },
     {
       "name": "Knight of New Benalia",
       "grade": "D+",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "24th card, could slot into aggressive knight decks"
     },
     {
       "name": "Kwende, Pride of Femeref",
       "grade": "C+ BA",
-      "manaCost": "3W"
+      "manaCost": "3W",
+      "notes": "Strong inclusion for aura/equip deck"
     },
     {
       "name": "Mesa Unicorn",
       "grade": "C+",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Solid 2-drop, good with auras/equipment"
     },
     {
       "name": "On Serra's Wings",
       "grade": "B-",
-      "manaCost": "3W"
+      "manaCost": "3W",
+      "notes": "Will be quite good in most cases, high ceiling"
     },
     {
       "name": "Pegasus Courser",
       "grade": "C+",
-      "manaCost": "2W"
+      "manaCost": "2W",
+      "notes": "Good blocker early, then lifts big creatures late"
     },
     {
       "name": "Sanctum Spirit",
       "grade": "C+",
-      "manaCost": "3W"
+      "manaCost": "3W",
+      "notes": "Threat of activation is real, easy to bluff on ability"
     },
     {
       "name": "Seal Away",
       "grade": "B-",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Premium removal but worse in aggro decks"
     },
     {
       "name": "Sergeant-at-Arms",
       "grade": "C",
-      "manaCost": "2W"
+      "manaCost": "2W",
+      "notes": "Crossover for black sacrifice cards, combo of bodies is fine"
     },
     {
       "name": "Serra Angel",
       "grade": "B+",
-      "manaCost": "3WW"
+      "manaCost": "3WW",
+      "notes": "Traditionally very strong card, no different here"
     },
     {
       "name": "Serra Disciple",
       "grade": "D",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Only playable if you really need a flier"
     },
     {
       "name": "Tragic Poet",
       "grade": "D",
-      "manaCost": "W"
+      "manaCost": "W",
+      "notes": "Becomes interesting if you have multiple sagas"
     },
     {
       "name": "Triumph of Gerrard",
       "grade": "C+",
-      "manaCost": "1W"
+      "manaCost": "1W",
+      "notes": "Opponent will see this coming but probably won't matter"
     },
     {
       "name": "Academy Drake",
       "grade": "B-",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "Flexibility in early/late game is super powerful"
     },
     {
       "name": "Academy Journeymage",
       "grade": "B-",
-      "manaCost": "4U"
+      "manaCost": "4U",
+      "notes": "Aggressivly costed bounce creature if cast for 4"
     },
     {
       "name": "Arcane Flight",
       "grade": "C+",
-      "manaCost": "U"
+      "manaCost": "U",
+      "notes": "Oriented to aggressive decks"
     },
     {
       "name": "Artificer's Assitant",
       "grade": "D",
-      "manaCost": "U"
+      "manaCost": "U",
+      "notes": "Not worth the base stats, don't BCSM and count on playing turn 1"
     },
     {
       "name": "Befuddle",
       "grade": "D+",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "Usually will not be needed"
     },
     {
       "name": "Blink of an Eye",
       "grade": "B-",
-      "manaCost": "1U"
+      "manaCost": "1U",
+      "notes": "Cheap interaction, run as many as you can get"
     },
     {
       "name": "Cloudreader Sphinx",
       "grade": "B-",
-      "manaCost": "4U"
+      "manaCost": "4U",
+      "notes": "Late in the game, scry 2 can be as good as card draw"
     },
     {
       "name": "Cold-Water Snapper",
       "grade": "D+",
-      "manaCost": "5U"
+      "manaCost": "5U",
+      "notes": "Could be a good target for auras, like a crappy build around"
     },
     {
       "name": "Curator's Ward",
       "grade": "F",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "Asking way too much, not worth setup cost to get cards"
     },
     {
       "name": "Deep Freeze",
       "grade": "C+",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "Best in blue-white fliers"
     },
     {
       "name": "Diligent Excavator",
       "grade": "D",
-      "manaCost": "1U"
+      "manaCost": "1U",
+      "notes": "Not a wizard, rules text not relevant"
     },
     {
       "name": "Divination",
       "grade": "C",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "Baseline grade for divination, could be better or worse"
     },
     {
       "name": "Homarid Explorer",
       "grade": "D",
-      "manaCost": "3U"
+      "manaCost": "3U",
+      "notes": "Mill Giant, include only when you need the body stats"
     },
     {
       "name": "In Bolas's Clutches",
       "grade": "A-",
-      "manaCost": "4UU"
+      "manaCost": "4UU",
+      "notes": "Will often be a first pick, weakened by good bounce spells"
     },
     {
       "name": "Merfolk Trickster",
       "grade": "B-",
-      "manaCost": "UU"
+      "manaCost": "UU",
+      "notes": "Wizard tribal, flexible uses, can take a flier out of the sky"
     },
     {
       "name": "Opt",
       "grade": "D+",
-      "manaCost": "U"
+      "manaCost": "U",
+      "notes": "Small effect, becomes an easy cut"
     },
     {
       "name": "Relic Runner",
       "grade": "C-",
-      "manaCost": "1U"
+      "manaCost": "1U",
+      "notes": "Okay to get last few points of damage, plan on artifacts for historic"
     },
     {
       "name": "Rescue",
       "grade": "D SB",
-      "manaCost": "U"
+      "manaCost": "U",
+      "notes": "Easy to think of scenarios, but will not be worth a card"
     },
     {
       "name": "Sage of Lat-Nam",
       "grade": "F",
-      "manaCost": "1U"
+      "manaCost": "1U",
+      "notes": "Not enough artifacts to make worthwhile, not a wizard"
     },
     {
       "name": "Sentinel of Pearl Trident",
       "grade": "C",
-      "manaCost": "4U"
+      "manaCost": "4U",
+      "notes": "Best with sagas to get reuse, can protect legendary creatures"
     },
     {
       "name": "Slinn Voda, the Rising Deep",
       "grade": "D-",
-      "manaCost": "6UU"
+      "manaCost": "6UU",
+      "notes": "CMC is just too high to be useful, playable only in ramp"
     },
     {
       "name": "Syncopate",
       "grade": "C",
-      "manaCost": "XU"
+      "manaCost": "XU",
+      "notes": "Syncopate the first thing you can"
     },
     {
       "name": "Tetsuko Umezawa, Fugitive",
       "grade": "C+",
-      "manaCost": "1U"
+      "manaCost": "1U",
+      "notes": "Increases the value of 3/1 and 2/1 creatures tremendously"
     },
     {
       "name": "Time of Ice",
       "grade": "B",
-      "manaCost": "3U"
+      "manaCost": "3U",
+      "notes": "Huge tempo play, buys time on defense but best on offense"
     },
     {
       "name": "Tolarian Scholar",
       "grade": "D-",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "23rd card for wizard's deck"
     },
     {
       "name": "Unwind",
       "grade": "C SB",
-      "manaCost": "2U"
+      "manaCost": "2U",
+      "notes": "Worse than negate, untapping lands on their turn doesn't matter"
     },
     {
       "name": "Voladian Arcanist",
       "grade": "D",
-      "manaCost": "1U"
+      "manaCost": "1U",
+      "notes": "Wizard tribal but not aggresive, pairs well with instant heavy decks"
     },
     {
       "name": "Weight of Memory",
       "grade": "C-",
-      "manaCost": "3UU"
+      "manaCost": "3UU",
+      "notes": "Worse than Divination, better if format is quite slow"
     },
     {
       "name": "Wizard's Retort",
       "grade": "C",
-      "manaCost": "1UU"
+      "manaCost": "1UU",
+      "notes": "Fits in wizard deck, but not usually worth running otherwise"
     },
     {
       "name": "Blessing of Belzenlok",
       "grade": "C",
-      "manaCost": "B"
+      "manaCost": "B",
+      "notes": "Worth running, don't wait for legendary to use it"
     },
     {
       "name": "Cabal Evangel",
       "grade": "D-",
-      "manaCost": "1B"
+      "manaCost": "1B",
+      "notes": "No relevant creature types"
     },
     {
       "name": "Cabal Paladin",
       "grade": "D+",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Aggressive, mismatch between historic and aggressive strategies"
     },
     {
       "name": "Caligo Skin-Witch",
       "grade": "C+",
-      "manaCost": "1B"
+      "manaCost": "1B",
+      "notes": "Grindy card at home in slower decks, side in against control"
     },
     {
       "name": "Cast Down",
       "grade": "B+",
-      "manaCost": "1B"
+      "manaCost": "1B",
+      "notes": "Sometimes won't kill their best creature, but still excellent removal"
     },
     {
       "name": "Chainer's Torment",
       "grade": "D",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Hard to tell how good it will be, doesn't affect board for 3 turns"
     },
     {
       "name": "Dark Bargain",
       "grade": "C",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Cost is a little high but most black decks will want one"
     },
     {
       "name": "Deathbloom Thallid",
       "grade": "C+",
-      "manaCost": "2B"
+      "manaCost": "2B",
+      "notes": "Solid card, run of the mill curve filler"
     },
     {
       "name": "Demonic Vigor",
       "grade": "D",
-      "manaCost": "B"
+      "manaCost": "B",
+      "notes": "Works best with a good ETB effect on a creature"
     },
     {
       "name": "Divest",
       "grade": "D",
-      "manaCost": "B"
+      "manaCost": "B",
+      "notes": "Sideboard in if your opponent has high CMC threats"
     },
     {
       "name": "Drudge Sentinel",
       "grade": "D+",
-      "manaCost": "2B"
+      "manaCost": "2B",
+      "notes": "Don't forget tapping is NOT part of the cost"
     },
     {
       "name": "The Eldest Reborn",
       "grade": "B-",
-      "manaCost": "4B"
+      "manaCost": "4B",
+      "notes": "Lots of value from mediocre effects, 3-for-1 when all abilities hit"
     },
     {
       "name": "Eviscerate",
       "grade": "B",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Splashable, always prioritize if playing black"
     },
     {
       "name": "Feral Abomination",
       "grade": "D",
-      "manaCost": "5B"
+      "manaCost": "5B",
+      "notes": "Deathtouch is essentially flavor text"
     },
     {
       "name": "Final Parting",
       "grade": "F",
-      "manaCost": "3BB"
+      "manaCost": "3BB",
+      "notes": "Could be workable from sideboard, but not likely"
     },
     {
       "name": "Fungal Infection",
       "grade": "C+",
-      "manaCost": "B"
+      "manaCost": "B",
+      "notes": "Really want the first one, sideboard out if no X/1 targets"
     },
     {
       "name": "Knight of Malice",
       "grade": "B",
-      "manaCost": "1B"
+      "manaCost": "1B",
+      "notes": "Always maindeck, don't worry about whether they're playing white"
     },
     {
       "name": "Lingering Phantom",
       "grade": "C-",
-      "manaCost": "5B"
+      "manaCost": "5B",
+      "notes": "Base stats are bad, only decent if you can trigger ability"
     },
     {
       "name": "Rat Colony",
       "grade": "D",
-      "manaCost": "1B"
+      "manaCost": "1B",
+      "notes": "Essentially vanilla"
     },
     {
       "name": "Settle the Score",
       "grade": "B",
-      "manaCost": "2BB"
+      "manaCost": "2BB",
+      "notes": "Worse than Eviscerate, but not significantly"
     },
     {
       "name": "Soul Salvage",
       "grade": "C-",
-      "manaCost": "2B"
+      "manaCost": "2B",
+      "notes": "Not a bad card, considering number of good creatures"
     },
     {
       "name": "Stronghold Confessor",
       "grade": "C",
-      "manaCost": "B"
+      "manaCost": "B",
+      "notes": "90/10 to use kicker, but will have it's uses as 1/1"
     },
     {
       "name": "Thallid Omnivore",
       "grade": "C",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Suffers for lack of a threaten effect, but still good"
     },
     {
       "name": "Thallid Soothsayer",
       "grade": "C+ BA",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Meant for token decks, disagreement on value of ability"
     },
     {
       "name": "Urgoros, the Empty One",
       "grade": "C-",
-      "manaCost": "4BB"
+      "manaCost": "4BB",
+      "notes": "Needs more toughness to be good, does not block well for 6-drop"
     },
     {
       "name": "Vicious Offering",
       "grade": "B-",
-      "manaCost": "1B"
+      "manaCost": "1B",
+      "notes": "Good in the early game, then can sac worst creature in late game"
     },
     {
       "name": "Whisper, Blood Liturgist",
       "grade": "B BA",
-      "manaCost": "3B"
+      "manaCost": "3B",
+      "notes": "Good payoff for token decks, goes well with Soul Salvage"
     },
     {
       "name": "Windgrace Acolyte",
       "grade": "C",
-      "manaCost": "4B"
+      "manaCost": "4B",
+      "notes": "Look for graveyard synergies, self mill is not a big cost"
     },
     {
       "name": "Yargle, Glutton of Urborg",
       "grade": "D+",
-      "manaCost": "4B"
+      "manaCost": "4B",
+      "notes": "I RIDE WITH YARGLE"
     },
     {
       "name": "Bloodstone Goblin",
       "grade": "D+",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Remember creatures are spells, don't count on firing the ability"
     },
     {
       "name": "Champion of Flame",
       "grade": "D",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Have to be completely all-in on the aura/equip strategy"
     },
     {
       "name": "Fervent Strike",
       "grade": "C+",
-      "manaCost": "R"
+      "manaCost": "R",
+      "notes": "Kindled Fury plus haste, cheap and efficient"
     },
     {
       "name": "Fiery Intervention",
       "grade": "C+",
-      "manaCost": "4R"
+      "manaCost": "4R",
+      "notes": "Would always run 1 or 2, bog standard removal"
     },
     {
       "name": "Fight with Fire",
       "grade": "A-",
-      "manaCost": "2R"
+      "manaCost": "2R",
+      "notes": "Both modes are really good, essentially wins the game if kicked"
     },
     {
       "name": "Fire Elemental",
       "grade": "C-",
-      "manaCost": "3RR"
+      "manaCost": "3RR",
+      "notes": "Very unexciting in this set, no synergy, already good 5 drops"
     },
     {
       "name": "Firefist Adept",
       "grade": "B",
-      "manaCost": "4R"
+      "manaCost": "4R",
+      "notes": "Doesn't require wizard synergy, anything more than X=2 is gravy"
     },
     {
       "name": "The Flame of Keld",
       "grade": "F",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Too much setup cost to work in limited, only +2's red sources"
     },
     {
       "name": "Frenzied Rage",
       "grade": "C",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Lots of aura payoffs, this is one of the better ones"
     },
     {
       "name": "Ghitu Chronicler",
       "grade": "C",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Mirror to Skin-Witch, wizard tribal and spell deck synergy"
     },
     {
       "name": "Ghitu Journeymage",
       "grade": "C",
-      "manaCost": "2R"
+      "manaCost": "2R",
+      "notes": "Very aggressive, look for bounce synergy"
     },
     {
       "name": "Ghitu Lavarunner",
       "grade": "D",
-      "manaCost": "R"
+      "manaCost": "R",
+      "notes": "Constructed plant, not great for anything but VERY heavy wizards"
     },
     {
       "name": "Goblin Barrage",
       "grade": "B-",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Kind of a build around, potential to do 4 to face is important"
     },
     {
       "name": "Goblin Warchief",
       "grade": "D BA",
-      "manaCost": "1RR"
+      "manaCost": "1RR",
+      "notes": "Not great due to limited number of goblins"
     },
     {
       "name": "Keldon Overseer",
       "grade": "C+",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Want 1 or 2 in red aggro, will have to play around carefully"
     },
     {
       "name": "Keldon Raider",
       "grade": "C+",
-      "manaCost": "2R"
+      "manaCost": "2R",
+      "notes": "Don't have to rummage"
     },
     {
       "name": "Keldon Warcaller",
       "grade": "D",
-      "manaCost": "2RR"
+      "manaCost": "2RR",
+      "notes": "Treat it like a vanilla, ability will very rarely be relevant"
     },
     {
       "name": "Orcish Vandal",
       "grade": "D+ BA",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Body is really bad, setup cost is very high, dies to any removal"
     },
     {
       "name": "Radiating Lightning",
       "grade": "C+ SB",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Sideboard in if opponent has lots of X/1s, face damage irrelevant"
     },
     {
       "name": "Rampaging Cyclops",
       "grade": "C",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Crushes vanilla test at 4CMC 4/4, look for tricks and removal"
     },
     {
       "name": "Run Amok",
       "grade": "C",
-      "manaCost": "1R"
+      "manaCost": "1R",
+      "notes": "Playable in aggro, good reason to fire off removal before combat"
     },
     {
       "name": "Seismic Shift",
       "grade": "D-",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Don't usually care about either effect, but you will lose to it"
     },
     {
       "name": "Shivan Fire",
       "grade": "B",
-      "manaCost": "R"
+      "manaCost": "R",
+      "notes": "Can't hit players, one mana instant kill spell is great"
     },
     {
       "name": "Skirk Prospector",
       "grade": "F",
-      "manaCost": "R"
+      "manaCost": "R",
+      "notes": "Constructed plant, don't care about ability in limited"
     },
     {
       "name": "Skizzik",
       "grade": "C+",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Three toughness is a liability, but haste+trample is great"
     },
     {
       "name": "Valduk, Keeper of the Flame",
       "grade": "B BA",
-      "manaCost": "2R"
+      "manaCost": "2R",
+      "notes": "This is the aura/equipment payoff you're looking for"
     },
     {
       "name": "Warcry Phoenix",
       "grade": "D+",
-      "manaCost": "3R"
+      "manaCost": "3R",
+      "notes": "Not especially powerful, stats are mismatched with CMC"
     },
     {
       "name": "Warlord's Fury",
       "grade": "D",
-      "manaCost": "R"
+      "manaCost": "R",
+      "notes": "Filler at best, sorcery speed really hobbles it"
     },
     {
       "name": "Wizard's Lightning",
       "grade": "B+",
-      "manaCost": "2R"
+      "manaCost": "2R",
+      "notes": "Playable either way, solid removal"
     },
     {
       "name": "Adventurous Impulse",
       "grade": "C+",
-      "manaCost": "G"
+      "manaCost": "G",
+      "notes": "Not going to miss very often, would always run first one"
     },
     {
       "name": "Ancient Animus",
       "grade": "C",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Can use on any creature, only get counter on legendary"
     },
     {
       "name": "Arbor Armament",
       "grade": "C SB",
-      "manaCost": "G"
+      "manaCost": "G",
+      "notes": "Sideboard against fliers or similar sized creatures"
     },
     {
       "name": "Baloth Gorger",
       "grade": "B-",
-      "manaCost": "2GG"
+      "manaCost": "2GG",
+      "notes": "Both modes are excellent"
     },
     {
       "name": "Broken Bond",
       "grade": "C SB",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Sideboard in like it's disenchant or naturalize"
     },
     {
       "name": "Corrosive Ooze",
       "grade": "D+",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Doesn't really fit in as 2 mana 2/2"
     },
     {
       "name": "Elfhame Druid",
       "grade": "B-",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Great card, going to be solid ramp and boost kicker spells"
     },
     {
       "name": "Fungal Plots",
       "grade": "B-",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Engine to build around self mill/sac and saprolings"
     },
     {
       "name": "Gaea's Blessing",
       "grade": "F",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Reprint from Weatherlight, no reason to put into your deck"
     },
     {
       "name": "Gaea's Protector",
       "grade": "D-",
-      "manaCost": "3G"
+      "manaCost": "3G",
+      "notes": "Not enough toughness, will always die"
     },
     {
       "name": "Gift of Growth",
       "grade": "C-",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "ELMER! LOOKING GOOD, BUDDY!"
     },
     {
       "name": "Grow from the Ashes",
       "grade": "D",
-      "manaCost": "2G"
+      "manaCost": "2G",
+      "notes": "Not super impressive at 3 CMC, only interesting if you're splashing"
     },
     {
       "name": "Grunn, the Lonely King",
       "grade": "C+",
-      "manaCost": "4GG"
+      "manaCost": "4GG",
+      "notes": "It's huge but easy to bounce and no evasion, easy to chump block"
     },
     {
       "name": "Krosan Druid",
       "grade": "D+",
-      "manaCost": "2G"
+      "manaCost": "2G",
+      "notes": "3 CMC 2/3 is not very good, but 10 life is a lot"
     },
     {
       "name": "Llanowar Elves",
       "grade": "B-",
-      "manaCost": "G"
+      "manaCost": "G",
+      "notes": "Leads to explosive starts, could be best green common"
     },
     {
       "name": "Llanowar Envoy",
       "grade": "C",
-      "manaCost": "2G"
+      "manaCost": "2G",
+      "notes": "Helps you splash, base body is basically fine"
     },
     {
       "name": "Llanowar Scout",
       "grade": "D",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Not the way you want to ramp, fills in as a passable 2 drop"
     },
     {
       "name": "Mammoth Spider",
       "grade": "C",
-      "manaCost": "4G"
+      "manaCost": "4G",
+      "notes": "Solid card, most green decks will want 1"
     },
     {
       "name": "Nature's Spiral",
       "grade": "F",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Not worth playing, art work is strip mine that's growing back"
     },
     {
       "name": "Pierce the Sky",
       "grade": "C SB",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Didn't give a grade, but referenced Plummet, typical sideboard C"
     },
     {
       "name": "Primordial Wurm",
       "grade": "D+",
-      "manaCost": "4GG"
+      "manaCost": "4GG",
+      "notes": "Needs some kind of evasion, fill in 6 drop"
     },
     {
       "name": "Saproling Migration",
       "grade": "C+",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "One of the engine cards for saprolings, defensive power"
     },
     {
       "name": "Song of Freyalise",
       "grade": "C+",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Dump hand turns 1 & 2, turn 3 counters stick around, but low floor"
     },
     {
       "name": "Spore Swarm",
       "grade": "B-",
-      "manaCost": "3G"
+      "manaCost": "3G",
+      "notes": "Instant speed is really important, feeds saproling engine"
     },
     {
       "name": "Sporecrown Thallid",
       "grade": "B-",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "Big saproling/thallid payoff card, base stats are fine"
     },
     {
       "name": "Thorn Elemental",
       "grade": "D+",
-      "manaCost": "5GG"
+      "manaCost": "5GG",
+      "notes": "Used to be a rare, has to be a finisher"
     },
     {
       "name": "Untamed Kavu",
       "grade": "B-",
-      "manaCost": "1G"
+      "manaCost": "1G",
+      "notes": "75/25 to kick it, can be splashed"
     },
     {
       "name": "Wild Onslaught",
       "grade": "C+",
-      "manaCost": "3G"
+      "manaCost": "3G",
+      "notes": "Blowout in either mode, 4 mana is a lot for a trick"
     },
     {
       "name": "Yavimaya Sapherd",
       "grade": "C+",
-      "manaCost": "2G"
+      "manaCost": "2G",
+      "notes": "Remember ETB effect not death trigger, feeds saproling deck"
     },
     {
       "name": "Adeliz, the Cinder Wind",
       "grade": "B",
-      "manaCost": "1UR"
+      "manaCost": "1UR",
+      "notes": "Great in wizards, but don't need lots to make worthwhile"
     },
     {
       "name": "Arvad the Cursed",
       "grade": "B",
-      "manaCost": "3WB"
+      "manaCost": "3WB",
+      "notes": "Legendary boost isn't necessary to make the grade"
     },
     {
       "name": "Garna, the Bloodflame",
       "grade": "B",
-      "manaCost": "3BR"
+      "manaCost": "3BR",
+      "notes": "Probably return 1-2 creatures if you do setup work"
     },
     {
       "name": "Hallar, the Firefletcher",
       "grade": "B",
-      "manaCost": "1GR"
+      "manaCost": "1GR",
+      "notes": "Red and green are the kicker colors"
     },
     {
       "name": "Raff Capashen, Ship's Mage",
       "grade": "B+",
-      "manaCost": "2WU"
+      "manaCost": "2WU",
+      "notes": "Historic spell rider irrelevant, won't matter"
     },
     {
       "name": "Rona, Disciple of Gix",
       "grade": "C+",
-      "manaCost": "1UB"
+      "manaCost": "1UB",
+      "notes": "Emphasis on build around, needs a slow grindy deck"
     },
     {
       "name": "Shanna, Sisay's Legacy",
       "grade": "B-",
-      "manaCost": "GW"
+      "manaCost": "GW",
+      "notes": "Take note, can't be targeted by ABILITIES - not spells"
     },
     {
       "name": "Slimefoot, the Stowaway",
       "grade": "B",
-      "manaCost": "1BG"
+      "manaCost": "1BG",
+      "notes": "Can take without any saproling support"
     },
     {
       "name": "Tatyova, Benthic Druid",
       "grade": "A-",
-      "manaCost": "3GU"
+      "manaCost": "3GU",
+      "notes": "Can win you the game solo, play when you can drop land right away"
     },
     {
       "name": "Tiana, Ship's Caretaker",
       "grade": "C",
-      "manaCost": "3RW"
+      "manaCost": "3RW",
+      "notes": "Aura/equipment part is basically irrelevant"
     },
     {
       "name": "Aesthir Glider",
       "grade": "C",
-      "manaCost": "3"
+      "manaCost": "3",
+      "notes": "Ice Age reprint, very mediocre but include if you want historic"
     },
     {
       "name": "Amaranthine Wall",
       "grade": "D",
-      "manaCost": "4"
+      "manaCost": "4",
+      "notes": "Only fits in super defensive, slow decks"
     },
     {
       "name": "Bloodtallow Candle",
       "grade": "C-",
-      "manaCost": "1"
+      "manaCost": "1",
+      "notes": "Good historic enabler, effective removal once you hit 6"
     },
     {
       "name": "Damping Sphere",
       "grade": "F",
-      "manaCost": "2"
+      "manaCost": "2",
+      "notes": "Constructed plant, doesn't really affect limited"
     },
     {
       "name": "Guardians of Koilos",
       "grade": "D",
-      "manaCost": "5"
+      "manaCost": "5",
+      "notes": "Buys back a saga, body is uninteresting "
     },
     {
       "name": "Howling Golem",
       "grade": "D",
-      "manaCost": "3"
+      "manaCost": "3",
+      "notes": "Helps that you have control over when you use the ability"
     },
     {
       "name": "Icy Manipulator",
       "grade": "A",
-      "manaCost": "4"
+      "manaCost": "4",
+      "notes": "Alpha reprint, locks down their best card for the entire game"
     },
     {
       "name": "Jhoira's Familiar",
       "grade": "D+",
-      "manaCost": "4"
+      "manaCost": "4",
+      "notes": "Too expensive for ramp, probably not going to want trigger"
     },
     {
       "name": "Jousting Lance",
       "grade": "C+",
-      "manaCost": "2"
+      "manaCost": "2",
+      "notes": "Equip cost is pricy, slots into RW aura/equip deck"
     },
     {
       "name": "Juggernaut",
       "grade": "B-",
-      "manaCost": "4"
+      "manaCost": "4",
+      "notes": "Card is perenially good, decent stats regardless of walls"
     },
     {
       "name": "Navigator's Compass",
       "grade": "F",
-      "manaCost": "1"
+      "manaCost": "1",
+      "notes": "This card is a trap -- doesn't ramp, only fixes"
     },
     {
       "name": "Pardic Wanderer",
       "grade": "D+",
-      "manaCost": "6"
+      "manaCost": "6",
+      "notes": "Historic enabler at best, body is too expensive"
     },
     {
       "name": "Powerstone Shard",
       "grade": "D+",
-      "manaCost": "3"
+      "manaCost": "3",
+      "notes": "Not great in ramp, have to go deep to get any real benefit"
     },
     {
       "name": "Shield of the Realm",
       "grade": "D+",
-      "manaCost": "2"
+      "manaCost": "2",
+      "notes": "Prevents 2 from EACH SOURCE, slots into RW aura/equip deck"
     },
     {
       "name": "Short Sword",
       "grade": "C",
-      "manaCost": "1"
+      "manaCost": "1",
+      "notes": "Cheap equip cost makes this, it's fine in most decks"
     },
     {
       "name": "Skittering Surveyor",
       "grade": "C+",
-      "manaCost": "3"
+      "manaCost": "3",
+      "notes": "Fits in every deck but the most aggro, solid historic enabler"
     },
     {
       "name": "Sorcerer's Wand",
       "grade": "B- BA",
-      "manaCost": "1"
+      "manaCost": "1",
+      "notes": "Damage to players only is a big drawback, finisher for aggro wizards"
     },
     {
       "name": "Sparring Construct",
       "grade": "D",
-      "manaCost": "1"
+      "manaCost": "1",
+      "notes": "Not worth playing a 1 mana 1/1"
     },
     {
       "name": "Urza's Tome",
       "grade": "C",
-      "manaCost": "2"
+      "manaCost": "2",
+      "notes": "Fine historic enabler, helps feed itself"
     },
     {
       "name": "Voltaic Servant",
       "grade": "D+",
-      "manaCost": "2"
+      "manaCost": "2",
+      "notes": "Livable stats, combo it with icy manipulator, hand is voltaic key"
     },
     {
       "name": "Memorial to Folly",
       "grade": "B-",
-      "manaCost": "B"
+      "manaCost": "B",
+      "notes": "Plays above ability due to being a land, swap for a card late"
     },
     {
       "name": "Memorial to Genius",
       "grade": "B-",
-      "manaCost": "U"
+      "manaCost": "U",
+      "notes": "Plays above ability due to being a land, reload hand late"
     },
     {
       "name": "Memorial to Glory",
       "grade": "C+",
-      "manaCost": "W"
+      "manaCost": "W",
+      "notes": "Plays above ability due to being a land, effect is not great late"
     },
     {
       "name": "Memorial to Unity ",
       "grade": "B-",
-      "manaCost": "G"
+      "manaCost": "G",
+      "notes": "Plays above ability due to being a land, pull a creature late"
     },
     {
       "name": "Memorial to War",
       "grade": "F",
-      "manaCost": "R"
+      "manaCost": "R",
+      "notes": "Not better than a basic Mountain"
     },
     {
       "name": "Zhalfirin Void",
       "grade": "C+",
-      "manaCost": "1"
+      "manaCost": "1",
+      "notes": "It's fine, would not pick highly but always include 1 or 2"
     }
   ]
 }
