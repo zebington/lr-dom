@@ -1,0 +1,14 @@
+{
+  "short_name": "DOM Review",
+  "name": "LR Limited DOM Review",
+  "icons": [
+    {
+      "src": "dom-large.png",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#9E1834",
+  "background_color": "#ffffff"
+}

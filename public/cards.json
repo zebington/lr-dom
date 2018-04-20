@@ -1,0 +1,909 @@
+{
+  "cards": [
+    {
+      "name": "Adamant Will",
+      "grade": "C",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Aven Sentry",
+      "grade": "C",
+      "manaCost": "3W"
+    },
+    {
+      "name": "Baird, Steward of Argive",
+      "grade": "B-",
+      "manaCost": "2WW"
+    },
+    {
+      "name": "Benalish Honor Guard",
+      "grade": "D",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Blessed Light",
+      "grade": "B-",
+      "manaCost": "4W"
+    },
+    {
+      "name": "Board the Weatherlight",
+      "grade": "F",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Call the Cavalry",
+      "grade": "C+",
+      "manaCost": "3W"
+    },
+    {
+      "name": "Charge",
+      "grade": "C",
+      "manaCost": "W"
+    },
+    {
+      "name": "D'Avenant Trapper",
+      "grade": "C",
+      "manaCost": "2W"
+    },
+    {
+      "name": "Danitha Capashen, Paragon",
+      "grade": "B-",
+      "manaCost": "2W"
+    },
+    {
+      "name": "Dauntless Bodyguard",
+      "grade": "C+",
+      "manaCost": "W"
+    },
+    {
+      "name": "Dub",
+      "grade": "C",
+      "manaCost": "2W"
+    },
+    {
+      "name": "Excavation Elephant",
+      "grade": "D+",
+      "manaCost": "4W"
+    },
+    {
+      "name": "Gideon's Reproach",
+      "grade": "C+",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Healing Grace",
+      "grade": "C SB",
+      "manaCost": "W"
+    },
+    {
+      "name": "Invoke the Divine",
+      "grade": "C SB",
+      "manaCost": "2W"
+    },
+    {
+      "name": "Knight of Grace",
+      "grade": "B",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Knight of New Benalia",
+      "grade": "D+",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Kwende, Pride of Femeref",
+      "grade": "C+ BA",
+      "manaCost": "3W"
+    },
+    {
+      "name": "Mesa Unicorn",
+      "grade": "C+",
+      "manaCost": "1W"
+    },
+    {
+      "name": "On Serra's Wings",
+      "grade": "B-",
+      "manaCost": "3W"
+    },
+    {
+      "name": "Pegasus Courser",
+      "grade": "C+",
+      "manaCost": "2W"
+    },
+    {
+      "name": "Sanctum Spirit",
+      "grade": "C+",
+      "manaCost": "3W"
+    },
+    {
+      "name": "Seal Away",
+      "grade": "B-",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Sergeant-at-Arms",
+      "grade": "C",
+      "manaCost": "2W"
+    },
+    {
+      "name": "Serra Angel",
+      "grade": "B+",
+      "manaCost": "3WW"
+    },
+    {
+      "name": "Serra Disciple",
+      "grade": "D",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Tragic Poet",
+      "grade": "D",
+      "manaCost": "W"
+    },
+    {
+      "name": "Triumph of Gerrard",
+      "grade": "C+",
+      "manaCost": "1W"
+    },
+    {
+      "name": "Academy Drake",
+      "grade": "B-",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Academy Journeymage",
+      "grade": "B-",
+      "manaCost": "4U"
+    },
+    {
+      "name": "Arcane Flight",
+      "grade": "C+",
+      "manaCost": "U"
+    },
+    {
+      "name": "Artificer's Assitant",
+      "grade": "D",
+      "manaCost": "U"
+    },
+    {
+      "name": "Befuddle",
+      "grade": "D+",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Blink of an Eye",
+      "grade": "B-",
+      "manaCost": "1U"
+    },
+    {
+      "name": "Cloudreader Sphinx",
+      "grade": "B-",
+      "manaCost": "4U"
+    },
+    {
+      "name": "Cold-Water Snapper",
+      "grade": "D+",
+      "manaCost": "5U"
+    },
+    {
+      "name": "Curator's Ward",
+      "grade": "F",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Deep Freeze",
+      "grade": "C+",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Diligent Excavator",
+      "grade": "D",
+      "manaCost": "1U"
+    },
+    {
+      "name": "Divination",
+      "grade": "C",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Homarid Explorer",
+      "grade": "D",
+      "manaCost": "3U"
+    },
+    {
+      "name": "In Bolas's Clutches",
+      "grade": "A-",
+      "manaCost": "4UU"
+    },
+    {
+      "name": "Merfolk Trickster",
+      "grade": "B-",
+      "manaCost": "UU"
+    },
+    {
+      "name": "Opt",
+      "grade": "D+",
+      "manaCost": "U"
+    },
+    {
+      "name": "Relic Runner",
+      "grade": "C-",
+      "manaCost": "1U"
+    },
+    {
+      "name": "Rescue",
+      "grade": "D SB",
+      "manaCost": "U"
+    },
+    {
+      "name": "Sage of Lat-Nam",
+      "grade": "F",
+      "manaCost": "1U"
+    },
+    {
+      "name": "Sentinel of Pearl Trident",
+      "grade": "C",
+      "manaCost": "4U"
+    },
+    {
+      "name": "Slinn Voda, the Rising Deep",
+      "grade": "D-",
+      "manaCost": "6UU"
+    },
+    {
+      "name": "Syncopate",
+      "grade": "C",
+      "manaCost": "XU"
+    },
+    {
+      "name": "Tetsuko Umezawa, Fugitive",
+      "grade": "C+",
+      "manaCost": "1U"
+    },
+    {
+      "name": "Time of Ice",
+      "grade": "B",
+      "manaCost": "3U"
+    },
+    {
+      "name": "Tolarian Scholar",
+      "grade": "D-",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Unwind",
+      "grade": "C SB",
+      "manaCost": "2U"
+    },
+    {
+      "name": "Voladian Arcanist",
+      "grade": "D",
+      "manaCost": "1U"
+    },
+    {
+      "name": "Weight of Memory",
+      "grade": "C-",
+      "manaCost": "3UU"
+    },
+    {
+      "name": "Wizard's Retort",
+      "grade": "C",
+      "manaCost": "1UU"
+    },
+    {
+      "name": "Blessing of Belzenlok",
+      "grade": "C",
+      "manaCost": "B"
+    },
+    {
+      "name": "Cabal Evangel",
+      "grade": "D-",
+      "manaCost": "1B"
+    },
+    {
+      "name": "Cabal Paladin",
+      "grade": "D+",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Caligo Skin-Witch",
+      "grade": "C+",
+      "manaCost": "1B"
+    },
+    {
+      "name": "Cast Down",
+      "grade": "B+",
+      "manaCost": "1B"
+    },
+    {
+      "name": "Chainer's Torment",
+      "grade": "D",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Dark Bargain",
+      "grade": "C",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Deathbloom Thallid",
+      "grade": "C+",
+      "manaCost": "2B"
+    },
+    {
+      "name": "Demonic Vigor",
+      "grade": "D",
+      "manaCost": "B"
+    },
+    {
+      "name": "Divest",
+      "grade": "D",
+      "manaCost": "B"
+    },
+    {
+      "name": "Drudge Sentinel",
+      "grade": "D+",
+      "manaCost": "2B"
+    },
+    {
+      "name": "The Eldest Reborn",
+      "grade": "B-",
+      "manaCost": "4B"
+    },
+    {
+      "name": "Eviscerate",
+      "grade": "B",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Feral Abomination",
+      "grade": "D",
+      "manaCost": "5B"
+    },
+    {
+      "name": "Final Parting",
+      "grade": "F",
+      "manaCost": "3BB"
+    },
+    {
+      "name": "Fungal Infection",
+      "grade": "C+",
+      "manaCost": "B"
+    },
+    {
+      "name": "Knight of Malice",
+      "grade": "B",
+      "manaCost": "1B"
+    },
+    {
+      "name": "Lingering Phantom",
+      "grade": "C-",
+      "manaCost": "5B"
+    },
+    {
+      "name": "Rat Colony",
+      "grade": "D",
+      "manaCost": "1B"
+    },
+    {
+      "name": "Settle the Score",
+      "grade": "B",
+      "manaCost": "2BB"
+    },
+    {
+      "name": "Soul Salvage",
+      "grade": "C-",
+      "manaCost": "2B"
+    },
+    {
+      "name": "Stronghold Confessor",
+      "grade": "C",
+      "manaCost": "B"
+    },
+    {
+      "name": "Thallid Omnivore",
+      "grade": "C",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Thallid Soothsayer",
+      "grade": "C+ BA",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Urgoros, the Empty One",
+      "grade": "C-",
+      "manaCost": "4BB"
+    },
+    {
+      "name": "Vicious Offering",
+      "grade": "B-",
+      "manaCost": "1B"
+    },
+    {
+      "name": "Whisper, Blood Liturgist",
+      "grade": "B BA",
+      "manaCost": "3B"
+    },
+    {
+      "name": "Windgrace Acolyte",
+      "grade": "C",
+      "manaCost": "4B"
+    },
+    {
+      "name": "Yargle, Glutton of Urborg",
+      "grade": "D+",
+      "manaCost": "4B"
+    },
+    {
+      "name": "Bloodstone Goblin",
+      "grade": "D+",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Champion of Flame",
+      "grade": "D",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Fervent Strike",
+      "grade": "C+",
+      "manaCost": "R"
+    },
+    {
+      "name": "Fiery Intervention",
+      "grade": "C+",
+      "manaCost": "4R"
+    },
+    {
+      "name": "Fight with Fire",
+      "grade": "A-",
+      "manaCost": "2R"
+    },
+    {
+      "name": "Fire Elemental",
+      "grade": "C-",
+      "manaCost": "3RR"
+    },
+    {
+      "name": "Firefist Adept",
+      "grade": "B",
+      "manaCost": "4R"
+    },
+    {
+      "name": "The Flame of Keld",
+      "grade": "F",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Frenzied Rage",
+      "grade": "C",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Ghitu Chronicler",
+      "grade": "C",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Ghitu Journeymage",
+      "grade": "C",
+      "manaCost": "2R"
+    },
+    {
+      "name": "Ghitu Lavarunner",
+      "grade": "D",
+      "manaCost": "R"
+    },
+    {
+      "name": "Goblin Barrage",
+      "grade": "B-",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Goblin Warchief",
+      "grade": "D BA",
+      "manaCost": "1RR"
+    },
+    {
+      "name": "Keldon Overseer",
+      "grade": "C+",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Keldon Raider",
+      "grade": "C+",
+      "manaCost": "2R"
+    },
+    {
+      "name": "Keldon Warcaller",
+      "grade": "D",
+      "manaCost": "2RR"
+    },
+    {
+      "name": "Orcish Vandal",
+      "grade": "D+ BA",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Radiating Lightning",
+      "grade": "C+ SB",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Rampaging Cyclops",
+      "grade": "C",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Run Amok",
+      "grade": "C",
+      "manaCost": "1R"
+    },
+    {
+      "name": "Seismic Shift",
+      "grade": "D-",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Shivan Fire",
+      "grade": "B",
+      "manaCost": "R"
+    },
+    {
+      "name": "Skirk Prospector",
+      "grade": "F",
+      "manaCost": "R"
+    },
+    {
+      "name": "Skizzik",
+      "grade": "C+",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Valduk, Keeper of the Flame",
+      "grade": "B BA",
+      "manaCost": "2R"
+    },
+    {
+      "name": "Warcry Phoenix",
+      "grade": "D+",
+      "manaCost": "3R"
+    },
+    {
+      "name": "Warlord's Fury",
+      "grade": "D",
+      "manaCost": "R"
+    },
+    {
+      "name": "Wizard's Lightning",
+      "grade": "B+",
+      "manaCost": "2R"
+    },
+    {
+      "name": "Adventurous Impulse",
+      "grade": "C+",
+      "manaCost": "G"
+    },
+    {
+      "name": "Ancient Animus",
+      "grade": "C",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Arbor Armament",
+      "grade": "C SB",
+      "manaCost": "G"
+    },
+    {
+      "name": "Baloth Gorger",
+      "grade": "B-",
+      "manaCost": "2GG"
+    },
+    {
+      "name": "Broken Bond",
+      "grade": "C SB",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Corrosive Ooze",
+      "grade": "D+",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Elfhame Druid",
+      "grade": "B-",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Fungal Plots",
+      "grade": "B-",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Gaea's Blessing",
+      "grade": "F",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Gaea's Protector",
+      "grade": "D-",
+      "manaCost": "3G"
+    },
+    {
+      "name": "Gift of Growth",
+      "grade": "C-",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Grow from the Ashes",
+      "grade": "D",
+      "manaCost": "2G"
+    },
+    {
+      "name": "Grunn, the Lonely King",
+      "grade": "C+",
+      "manaCost": "4GG"
+    },
+    {
+      "name": "Krosan Druid",
+      "grade": "D+",
+      "manaCost": "2G"
+    },
+    {
+      "name": "Llanowar Elves",
+      "grade": "B-",
+      "manaCost": "G"
+    },
+    {
+      "name": "Llanowar Envoy",
+      "grade": "C",
+      "manaCost": "2G"
+    },
+    {
+      "name": "Llanowar Scout",
+      "grade": "D",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Mammoth Spider",
+      "grade": "C",
+      "manaCost": "4G"
+    },
+    {
+      "name": "Nature's Spiral",
+      "grade": "F",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Pierce the Sky",
+      "grade": "C SB",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Primordial Wurm",
+      "grade": "D+",
+      "manaCost": "4GG"
+    },
+    {
+      "name": "Saproling Migration",
+      "grade": "C+",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Song of Freyalise",
+      "grade": "C+",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Spore Swarm",
+      "grade": "B-",
+      "manaCost": "3G"
+    },
+    {
+      "name": "Sporecrown Thallid",
+      "grade": "B-",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Thorn Elemental",
+      "grade": "D+",
+      "manaCost": "5GG"
+    },
+    {
+      "name": "Untamed Kavu",
+      "grade": "B-",
+      "manaCost": "1G"
+    },
+    {
+      "name": "Wild Onslaught",
+      "grade": "C+",
+      "manaCost": "3G"
+    },
+    {
+      "name": "Yavimaya Sapherd",
+      "grade": "C+",
+      "manaCost": "2G"
+    },
+    {
+      "name": "Adeliz, the Cinder Wind",
+      "grade": "B",
+      "manaCost": "1UR"
+    },
+    {
+      "name": "Arvad the Cursed",
+      "grade": "B",
+      "manaCost": "3WB"
+    },
+    {
+      "name": "Garna, the Bloodflame",
+      "grade": "B",
+      "manaCost": "3BR"
+    },
+    {
+      "name": "Hallar, the Firefletcher",
+      "grade": "B",
+      "manaCost": "1GR"
+    },
+    {
+      "name": "Raff Capashen, Ship's Mage",
+      "grade": "B+",
+      "manaCost": "2WU"
+    },
+    {
+      "name": "Rona, Disciple of Gix",
+      "grade": "C+",
+      "manaCost": "1UB"
+    },
+    {
+      "name": "Shanna, Sisay's Legacy",
+      "grade": "B-",
+      "manaCost": "GW"
+    },
+    {
+      "name": "Slimefoot, the Stowaway",
+      "grade": "B",
+      "manaCost": "1BG"
+    },
+    {
+      "name": "Tatyova, Benthic Druid",
+      "grade": "A-",
+      "manaCost": "3GU"
+    },
+    {
+      "name": "Tiana, Ship's Caretaker",
+      "grade": "C",
+      "manaCost": "3RW"
+    },
+    {
+      "name": "Aesthir Glider",
+      "grade": "C",
+      "manaCost": "3"
+    },
+    {
+      "name": "Amaranthine Wall",
+      "grade": "D",
+      "manaCost": "4"
+    },
+    {
+      "name": "Bloodtallow Candle",
+      "grade": "C-",
+      "manaCost": "1"
+    },
+    {
+      "name": "Damping Sphere",
+      "grade": "F",
+      "manaCost": "2"
+    },
+    {
+      "name": "Guardians of Koilos",
+      "grade": "D",
+      "manaCost": "5"
+    },
+    {
+      "name": "Howling Golem",
+      "grade": "D",
+      "manaCost": "3"
+    },
+    {
+      "name": "Icy Manipulator",
+      "grade": "A",
+      "manaCost": "4"
+    },
+    {
+      "name": "Jhoira's Familiar",
+      "grade": "D+",
+      "manaCost": "4"
+    },
+    {
+      "name": "Jousting Lance",
+      "grade": "C+",
+      "manaCost": "2"
+    },
+    {
+      "name": "Juggernaut",
+      "grade": "B-",
+      "manaCost": "4"
+    },
+    {
+      "name": "Navigator's Compass",
+      "grade": "F",
+      "manaCost": "1"
+    },
+    {
+      "name": "Pardic Wanderer",
+      "grade": "D+",
+      "manaCost": "6"
+    },
+    {
+      "name": "Powerstone Shard",
+      "grade": "D+",
+      "manaCost": "3"
+    },
+    {
+      "name": "Shield of the Realm",
+      "grade": "D+",
+      "manaCost": "2"
+    },
+    {
+      "name": "Short Sword",
+      "grade": "C",
+      "manaCost": "1"
+    },
+    {
+      "name": "Skittering Surveyor",
+      "grade": "C+",
+      "manaCost": "3"
+    },
+    {
+      "name": "Sorcerer's Wand",
+      "grade": "B- BA",
+      "manaCost": "1"
+    },
+    {
+      "name": "Sparring Construct",
+      "grade": "D",
+      "manaCost": "1"
+    },
+    {
+      "name": "Urza's Tome",
+      "grade": "C",
+      "manaCost": "2"
+    },
+    {
+      "name": "Voltaic Servant",
+      "grade": "D+",
+      "manaCost": "2"
+    },
+    {
+      "name": "Memorial to Folly",
+      "grade": "B-",
+      "manaCost": "B"
+    },
+    {
+      "name": "Memorial to Genius",
+      "grade": "B-",
+      "manaCost": "U"
+    },
+    {
+      "name": "Memorial to Glory",
+      "grade": "C+",
+      "manaCost": "W"
+    },
+    {
+      "name": "Memorial to Unity ",
+      "grade": "B-",
+      "manaCost": "G"
+    },
+    {
+      "name": "Memorial to War",
+      "grade": "F",
+      "manaCost": "R"
+    },
+    {
+      "name": "Zhalfirin Void",
+      "grade": "C+",
+      "manaCost": "1"
+    }
+  ]
+}
