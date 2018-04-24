@@ -29,9 +29,9 @@ class Card extends Component {
     fixedEncodeURIComponent = str => encodeURIComponent(str).replace(/[!'()*]/g, escape);
 
     render() {
-        const manaCost = this.props.manaCost.split('').map(part => {
+        const manaCost = this.props.manaCost.split('').map((part, i) => {
             const className = 'icon icon-' + part.toLowerCase();
-            return <span className={className}>{part}</span>;
+            return <span className={className} key={i}>{part}</span>;
         });
         let cardPopup = this.state.popup === false ? null :
             <div>

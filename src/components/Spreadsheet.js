@@ -66,7 +66,7 @@ class Spreadsheet extends Component {
                 && card.manaCost.includes(this.state.manaCostFilter)
                 && this.state.gradeFilter[card.grade[0]]
             ).map(card =>
-                <Card name={card.name} manaCost={card.manaCost} grade={card.grade} notes={card.notes}/>
+                <Card name={card.name} manaCost={card.manaCost} grade={card.grade} notes={card.notes} key={card.id}/>
             );
             const gradeSelectorClass = `grade-selector${this.state.gradeSelectorOpen ? " active" : ""}`;
             return (
