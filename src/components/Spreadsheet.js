@@ -86,19 +86,19 @@ class Spreadsheet extends Component {
                                 </div>
                                 <div className="grade-selector-dropdown">
                                     <div className="grade-selector-dropdown-option" data-grade="A" onClick={this.filterGrade}>
-                                        <input type="checkbox" checked={this.state.gradeFilter.A}/>A
+                                        <input type="checkbox" checked={this.state.gradeFilter.A} readOnly={true}/>A
                                     </div>
                                     <div className="grade-selector-dropdown-option" data-grade="B" onClick={this.filterGrade}>
-                                        <input type="checkbox" checked={this.state.gradeFilter.B}/>B
+                                        <input type="checkbox" checked={this.state.gradeFilter.B} readOnly={true}/>B
                                     </div>
                                     <div className="grade-selector-dropdown-option" data-grade="C" onClick={this.filterGrade}>
-                                        <input type="checkbox" checked={this.state.gradeFilter.C}/>C
+                                        <input type="checkbox" checked={this.state.gradeFilter.C} readOnly={true}/>C
                                     </div>
                                     <div className="grade-selector-dropdown-option" data-grade="D" onClick={this.filterGrade}>
-                                        <input type="checkbox" checked={this.state.gradeFilter.D}/>D
+                                        <input type="checkbox" checked={this.state.gradeFilter.D} readOnly={true}/>D
                                     </div>
                                     <div className="grade-selector-dropdown-option" data-grade="F" onClick={this.filterGrade}>
-                                        <input type="checkbox" checked={this.state.gradeFilter.F}/>F
+                                        <input type="checkbox" checked={this.state.gradeFilter.F} readOnly={true}/>F
                                     </div>
                                 </div>
                             </div>
