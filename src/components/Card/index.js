@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import ManaSymbol from '../icons/ManaSymbol';
+
 import './Card.css'
 
 class Card extends Component {
@@ -30,8 +32,7 @@ class Card extends Component {
 
     render() {
         const manaCost = this.props.manaCost.split('').map((part, i) => {
-            const className = 'icon icon-' + part.toLowerCase();
-            return <span className={className} key={i}>{part}</span>;
+            return <ManaSymbol symbol={part.toLowerCase()} key={i}/>;
         });
         let cardPopup = this.state.popup === false ? null :
             <div>

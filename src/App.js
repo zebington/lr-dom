@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Spreadsheet from './components/Spreadsheet';
 import './App.css';
-import './icons/Icons.css';
+import './components/icons/Icons.css';
 
 class App extends Component {
     render() {

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import Card from '../Card';
 
-import Arrow from '../../icons/Arrow';
+import Arrow from '../icons/Arrow';
 
 import './Spreadsheet.css';
 
