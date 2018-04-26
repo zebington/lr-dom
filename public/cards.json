@@ -1228,42 +1228,42 @@
     {
       "name": "Memorial to Folly",
       "grade": "B-",
-      "manaCost": "B",
+      "manaCost": "0",
       "notes": "Plays above ability due to being a land, swap for a card late",
       "id": 242
     },
     {
       "name": "Memorial to Genius",
       "grade": "B-",
-      "manaCost": "U",
+      "manaCost": "0",
       "notes": "Plays above ability due to being a land, reload hand late",
       "id": 243
     },
     {
       "name": "Memorial to Glory",
       "grade": "C+",
-      "manaCost": "W",
+      "manaCost": "0",
       "notes": "Plays above ability due to being a land, effect is not great late",
       "id": 244
     },
     {
       "name": "Memorial to Unity ",
       "grade": "B-",
-      "manaCost": "G",
+      "manaCost": "0",
       "notes": "Plays above ability due to being a land, pull a creature late",
       "id": 245
     },
     {
       "name": "Memorial to War",
       "grade": "F",
-      "manaCost": "R",
+      "manaCost": "0",
       "notes": "Not better than a basic Mountain",
       "id": 246
     },
     {
       "name": "Zhalfirin Void",
       "grade": "C+",
-      "manaCost": "1",
+      "manaCost": "0",
       "notes": "It's fine, would not pick highly but always include 1 or 2",
       "id": 249
     }
