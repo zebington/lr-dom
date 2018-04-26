@@ -80,7 +80,7 @@ class Spreadsheet extends Component {
 
     sortById = (card1, card2) => (card1.id - card2.id) * (this.state.sort.dir === 'up' ? -1 : 1);
 
-    sortByName = (card1, card2) => card1.name.localeCompare(card2.name) * (this.state.sort.dir === 'up' ? -1 : 1);
+    sortByName = (card1, card2) => card1.name.localeCompare(card2.name);
 
     sortByCost = (card1, card2) => {
         const getVal = (acc, part) => {
@@ -96,24 +96,50 @@ class Spreadsheet extends Component {
         };
         const card1Val = card1.manaCost.split('').reduce(getVal, 0);
         const card2Val = card2.manaCost.split('').reduce(getVal, 0);
-        return (card1Val - card2Val) * (this.state.sort.dir === 'up' ? -1 : 1);
+        return (card1Val - card2Val);
+    };
+
+    sortByGrade = (card1, card2) => {
+        const getCardVal = grade => {
+            const letterVal = letter => {
+                switch (letter) {
+                    case 'D': return 1;
+                    case 'C': return 2;
+                    case 'B': return 3;
+                    case 'A': return 4;
+                    default: return 0;
+                }
+            };
+            const modVal = mod => {
+                switch (mod) {
+                    case '+': return 0.25;
+                    case '-': return -0.25;
+                    default: return 0;
+                }
+            };
+            return letterVal(grade[0]) + (grade.length > 1 ? modVal(grade[1]) : 0);
+        };
+        return getCardVal(card2.grade) - getCardVal(card1.grade);
     };
 
     getSortFunction = () => {
         switch (this.state.sort.by) {
             case 'name': return this.sortByName;
             case 'cost': return this.sortByCost;
+            case 'grade': return this.sortByGrade;
             default: return this.sortById;
         }
     };
 
     render() {
         if (!this.state.isLoading) {
-            const cards = this.state.cards.filter(card =>
+            const sortedCards = this.state.cards.filter(card =>
                 card.name.toLowerCase().includes(this.state.nameFilter)
                 && card.manaCost.includes(this.state.manaCostFilter)
                 && this.state.gradeFilter[card.grade[0]]
-            ).sort(this.getSortFunction()).map(card =>
+            ).sort(this.getSortFunction());
+            if (this.state.sort.dir === 'up') sortedCards.reverse();
+            const cards = sortedCards.map(card =>
                 <Card name={card.name} manaCost={card.manaCost} grade={card.grade} notes={card.notes} key={card.id}/>
             );
             const gradeSelectorClass = `grade-selector${this.state.gradeSelectorOpen ? " active" : ""}`;
@@ -159,6 +185,8 @@ class Spreadsheet extends Component {
                                     </div>
                                 </div>
                             </div>
+                            <Sorter toggleSort={this.toggleSort} sorts="grade"
+                                    sorted={this.state.sort.by === 'grade' ? this.state.sort.dir : ''}/>
                         </div>
                     </div>
                     {cards}
