@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 
 import Card from '../Card';
+
+import Arrow from '../../icons/Arrow';
+
 import './Spreadsheet.css';
 
 class Spreadsheet extends Component {
@@ -82,22 +85,27 @@ class Spreadsheet extends Component {
                         <div className="header grade">
                             <div className={gradeSelectorClass}>
                                 <div className="grade-selector-button" onClick={this.toggleGradeSelector}>
-                                    Grade <span className="icon icon-arrow"/>
+                                    Grade <Arrow/>
                                 </div>
                                 <div className="grade-selector-dropdown">
-                                    <div className="grade-selector-dropdown-option" data-grade="A" onClick={this.filterGrade}>
+                                    <div className="grade-selector-dropdown-option" data-grade="A"
+                                         onClick={this.filterGrade}>
                                         <input type="checkbox" checked={this.state.gradeFilter.A} readOnly={true}/>A
                                     </div>
-                                    <div className="grade-selector-dropdown-option" data-grade="B" onClick={this.filterGrade}>
+                                    <div className="grade-selector-dropdown-option" data-grade="B"
+                                         onClick={this.filterGrade}>
                                         <input type="checkbox" checked={this.state.gradeFilter.B} readOnly={true}/>B
                                     </div>
-                                    <div className="grade-selector-dropdown-option" data-grade="C" onClick={this.filterGrade}>
+                                    <div className="grade-selector-dropdown-option" data-grade="C"
+                                         onClick={this.filterGrade}>
                                         <input type="checkbox" checked={this.state.gradeFilter.C} readOnly={true}/>C
                                     </div>
-                                    <div className="grade-selector-dropdown-option" data-grade="D" onClick={this.filterGrade}>
+                                    <div className="grade-selector-dropdown-option" data-grade="D"
+                                         onClick={this.filterGrade}>
                                         <input type="checkbox" checked={this.state.gradeFilter.D} readOnly={true}/>D
                                     </div>
-                                    <div className="grade-selector-dropdown-option" data-grade="F" onClick={this.filterGrade}>
+                                    <div className="grade-selector-dropdown-option" data-grade="F"
+                                         onClick={this.filterGrade}>
                                         <input type="checkbox" checked={this.state.gradeFilter.F} readOnly={true}/>F
                                     </div>
                                 </div>

@@ -128,13 +128,17 @@ input[type="search"], .grade-selector {
     margin: 0 .5rem 0 0;
 }
 
-.grade-selector .icon {
+.grade-selector .icons {
     height: 0.35rem;
     width: 0.7rem;
     transition: all 200ms linear;
 }
 
-.grade-selector.active .icon {
+.grade-selector:hover .icons path, .grade-selector:focus .icons path {
+    fill: #777;
+}
+
+.grade-selector.active .icons {
     transform: rotateX(180deg);
 }
 
@@ -158,4 +162,3 @@ input[type="search"], .grade-selector {
 .icon.icon-4 {background-image: url(/icons/4.svg);}
 .icon.icon-5 {background-image: url(/icons/5.svg);}
 .icon.icon-6 {background-image: url(/icons/6.svg);}
-.icon.icon-arrow {background-image: url(/icons/arrow.svg);}
