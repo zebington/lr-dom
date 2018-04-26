@@ -67,38 +67,42 @@ class Spreadsheet extends Component {
         this.setState({gradeSelectorOpen: !this.state.gradeSelectorOpen})
     };
 
-    toggleSortName = () => {
-        if (this.state.sort.by !== 'name') {
-            this.setState({
-                sort: {
-                    by: 'name',
-                    dir: 'down'
-                }
-            });
+    toggleSort = e => {
+        const sort = e.currentTarget.dataset.sorts;
+        if (this.state.sort.by !== sort){
+            this.setState({sort: {by: sort, dir: 'down'}});
         } else if (this.state.sort.dir === 'down') {
-            this.setState({
-                sort: {
-                    by: 'name',
-                    dir: 'up'
-                }
-            });
+            this.setState({sort: {by: sort, dir: 'up'}});
         } else {
-            this.setState({
-                sort: {
-                    by: 'id',
-                    dir: 'down'
-                }
-            });
+            this.setState({sort: {by: 'id', dir: 'down'}});
         }
     };
 
-    sortById = (card1, card2) => card1.id - card2.id * (this.state.sort.dir === 'up' ? -1 : 1);
+    sortById = (card1, card2) => (card1.id - card2.id) * (this.state.sort.dir === 'up' ? -1 : 1);
 
     sortByName = (card1, card2) => card1.name.localeCompare(card2.name) * (this.state.sort.dir === 'up' ? -1 : 1);
+
+    sortByCost = (card1, card2) => {
+        const getVal = (acc, part) => {
+            switch (part) {
+                case 'X': return acc;
+                case 'W': return acc + 1.00001;
+                case 'U': return acc + 1.0001;
+                case 'B': return acc + 1.001;
+                case 'R': return acc + 1.01;
+                case 'G': return acc + 1.1;
+                default: return acc + Number(part);
+            }
+        };
+        const card1Val = card1.manaCost.split('').reduce(getVal, 0);
+        const card2Val = card2.manaCost.split('').reduce(getVal, 0);
+        return (card1Val - card2Val) * (this.state.sort.dir === 'up' ? -1 : 1);
+    };
 
     getSortFunction = () => {
         switch (this.state.sort.by) {
             case 'name': return this.sortByName;
+            case 'cost': return this.sortByCost;
             default: return this.sortById;
         }
     };
@@ -119,11 +123,13 @@ class Spreadsheet extends Component {
                         <div className="header name">
                             <input type="search" placeholder="Name" autoComplete="off" autoCapitalize="words"
                                    onChange={this.filterName}/>
-                            <Sorter toggleSort={this.toggleSortName}
+                            <Sorter toggleSort={this.toggleSort} sorts="name"
                                     sorted={this.state.sort.by === 'name' ? this.state.sort.dir : ''}/>
                         </div>
                         <div className="header mana-cost">
                             <input type="search" placeholder="Cost" autoComplete="off" onChange={this.filterManaCost}/>
+                            <Sorter toggleSort={this.toggleSort} sorts="cost"
+                                    sorted={this.state.sort.by === 'cost' ? this.state.sort.dir : ''}/>
                         </div>
                         <div className="header grade">
                             <div className={gradeSelectorClass}>
