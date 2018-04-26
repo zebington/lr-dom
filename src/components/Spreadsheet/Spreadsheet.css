@@ -72,6 +72,13 @@ input[type="search"], .grade-selector {
     opacity: 1;
     color: #999;
 }
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .header input[type="search"]:hover, .grade-selector:hover {
     border-color: #999
 }

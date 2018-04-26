@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Card from '../Card';
+import Sorter from '../Sorter';
 
 import Arrow from '../icons/Arrow';
 
@@ -21,6 +22,10 @@ class Spreadsheet extends Component {
                 C: true,
                 D: true,
                 F: true
+            },
+            sort: {
+                by: 'id',
+                dir: 'down'
             }
         };
     }
@@ -62,13 +67,49 @@ class Spreadsheet extends Component {
         this.setState({gradeSelectorOpen: !this.state.gradeSelectorOpen})
     };
 
+    toggleSortName = () => {
+        if (this.state.sort.by !== 'name') {
+            this.setState({
+                sort: {
+                    by: 'name',
+                    dir: 'down'
+                }
+            });
+        } else if (this.state.sort.dir === 'down') {
+            this.setState({
+                sort: {
+                    by: 'name',
+                    dir: 'up'
+                }
+            });
+        } else {
+            this.setState({
+                sort: {
+                    by: 'id',
+                    dir: 'down'
+                }
+            });
+        }
+    };
+
+    sortById = (card1, card2) => card1.id - card2.id * (this.state.sort.dir === 'up' ? -1 : 1);
+
+    sortByName = (card1, card2) => card1.name.localeCompare(card2.name) * (this.state.sort.dir === 'up' ? -1 : 1);
+
+    getSortFunction = () => {
+        switch (this.state.sort.by) {
+            case 'name': return this.sortByName;
+            default: return this.sortById;
+        }
+    };
+
     render() {
         if (!this.state.isLoading) {
             const cards = this.state.cards.filter(card =>
                 card.name.toLowerCase().includes(this.state.nameFilter)
                 && card.manaCost.includes(this.state.manaCostFilter)
                 && this.state.gradeFilter[card.grade[0]]
-            ).map(card =>
+            ).sort(this.getSortFunction()).map(card =>
                 <Card name={card.name} manaCost={card.manaCost} grade={card.grade} notes={card.notes} key={card.id}/>
             );
             const gradeSelectorClass = `grade-selector${this.state.gradeSelectorOpen ? " active" : ""}`;
@@ -78,6 +119,8 @@ class Spreadsheet extends Component {
                         <div className="header name">
                             <input type="search" placeholder="Name" autoComplete="off" autoCapitalize="words"
                                    onChange={this.filterName}/>
+                            <Sorter toggleSort={this.toggleSortName}
+                                    sorted={this.state.sort.by === 'name' ? this.state.sort.dir : ''}/>
                         </div>
                         <div className="header mana-cost">
                             <input type="search" placeholder="Cost" autoComplete="off" onChange={this.filterManaCost}/>
